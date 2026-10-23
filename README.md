@@ -58,7 +58,7 @@ The Executive Overview provides a high-level view of customers, policies, policy
 
 ### Dashboard
 
-![executive-overview](screenshots/executive-overview.png)
+![Executive Overview](executive-overview.png)
 
 ---
 
@@ -76,7 +76,7 @@ This dashboard focuses on premium growth and policy-ending trends across the ana
 
 ### Dashboard
 
-![premium-policy-trends](screenshots/premium-policy-trends.png)
+![Premium & Policy Lifecycle Trends](premium-policy-trends.png)
 
 ---
 
@@ -86,7 +86,7 @@ The Summary dashboard highlights the major findings from the analysis and presen
 
 ### Dashboard
 
-![Summary & Recommendations](screenshots/Summary & Recommendations.png)
+![Summary & Recommendations](summary.png)
 
 ---
 
@@ -112,7 +112,7 @@ Use renewal reminders and customer win-back campaigns to improve the active poli
 
 ### 2. Review Pricing Strategies
 
-Analyze pricing, premium, and discount strategies to understand the fluctuations in premium growth.
+Analyze pricing, premium, and discount strategies to understand fluctuations in premium growth.
 
 ### 3. Prepare for Policy Renewals
 
@@ -145,13 +145,11 @@ Identify customers with limited insurance coverage and develop suitable cross-se
 ```text
 Insurance-Analytics/
 │
-├── Insurance Analytics.pbix
-├── README.md
-│
-└── screenshots/
-    ├── executive-overview.png
-    ├── premium-policy-trends.png
-    └── summary.png
+├── executive-overview.png
+├── insurance analytics.pbix
+├── premium-policy-trends.png
+├── summary.png
+└── README.md
 ```
 
 ---
