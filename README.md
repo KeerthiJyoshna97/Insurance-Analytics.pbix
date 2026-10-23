@@ -58,7 +58,7 @@ The Executive Overview provides a high-level view of customers, policies, policy
 
 ### Dashboard
 
-![Executive Overview](screenshots/executive-overview.png)
+![executive-overview](screenshots/executive-overview.png)
 
 ---
 
@@ -76,7 +76,7 @@ This dashboard focuses on premium growth and policy-ending trends across the ana
 
 ### Dashboard
 
-![Premium & Policy Lifecycle Trends](screenshots/premium-policy-trends.png)
+![premium-policy-trends](screenshots/premium-policy-trends.png)
 
 ---
 
@@ -86,7 +86,7 @@ The Summary dashboard highlights the major findings from the analysis and presen
 
 ### Dashboard
 
-![Summary & Recommendations](screenshots/summary.png)
+![Summary & Recommendations](screenshots/Summary & Recommendations.png)
 
 ---
 
