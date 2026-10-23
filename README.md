@@ -1,28 +1,28 @@
 # 📊 Insurance Analytics Dashboard
 
-A **Power BI Insurance Analytics** project focused on analyzing customer, policy, claims, premium, and policy lifecycle data to generate meaningful business insights through interactive dashboards and KPI reporting.
+A **Power BI Insurance Analytics project** designed to analyze customer, policy, claims, premium, and policy lifecycle data through interactive dashboards, KPI reporting, and business insights.
 
 ---
 
 ## 📌 Project Overview
 
-This project analyzes an insurance dataset containing **5,000 policy records** along with customer, claims, payment, risk, and policy-related information.
+This project analyzes an insurance dataset containing **5,000 customer and policy records** along with policy, claims, payment, demographic, and premium-related information.
 
-The analysis focuses on understanding:
+The dashboard helps understand:
 
-- Policy participation
-- Policy status
+- Customer and policy distribution
+- Policy status and performance
 - Customer demographics
-- Insurance types
-- Premium trends
+- Insurance type participation
+- Premium trends and growth
 - Policy-ending patterns
-- Claims and policy performance
+- Claims and financial metrics
 
 ---
 
 ## 🎯 Project Objective
 
-To analyze insurance data, identify key trends and customer patterns, evaluate policy performance and premium growth, and provide actionable insights that support better decision-making and improved policy management.
+To analyze insurance data, identify important trends and patterns, monitor policy performance, and generate actionable business insights that can support better decision-making and policy management.
 
 ---
 
@@ -43,16 +43,18 @@ To analyze insurance data, identify key trends and customer patterns, evaluate p
 
 ## 1. Executive Overview
 
-The Executive Overview provides a high-level view of customers, policies, policy status, demographics, and insurance types.
+The Executive Overview provides a high-level view of customers, policies, policy status, demographics, insurance types, and key financial metrics.
 
 ### Key KPIs
 
-- **Total Customers:** 5,000
-- **Total Policies:** 5,000
-- **Total Claim Amount:** ₹251.38M
-- **Average Coverage Amount:** ₹254.56K
-- **Average Premium Amount:** ₹1.05K
-- **Active Policy:** 33.64%
+| KPI | Value |
+|---|---:|
+| Total Customers | **5,000** |
+| Total Policies | **5,000** |
+| Total Claim Amount | **₹251.38M** |
+| Average Coverage Amount | **₹254.56K** |
+| Average Premium Amount | **₹1.05K** |
+| Active Policy Percentage | **33.64%** |
 
 ### Dashboard
 
@@ -62,13 +64,13 @@ The Executive Overview provides a high-level view of customers, policies, policy
 
 ## 2. Premium & Policy Lifecycle Trends
 
-This dashboard analyzes premium growth and policy-ending trends across the available policy period.
+This dashboard focuses on premium growth and policy-ending trends across the analyzed policy period.
 
 ### Key Metrics
 
 - **Average Premium Growth:** -1.91%
-- **Highest Growth Rate:** 4.79%
-- **Lowest Growth Rate:** -9.74%
+- **Highest Growth Rate:** 4.79% in 2022
+- **Lowest Growth Rate:** -9.74% in 2015
 - **Growth Rate Difference:** 14.53 percentage points
 - **Peak Policies Ending:** 526 in 2025
 
@@ -80,7 +82,7 @@ This dashboard analyzes premium growth and policy-ending trends across the avail
 
 ## 3. Summary & Recommendations
 
-The Summary dashboard presents the major findings from the analysis along with business recommendations.
+The Summary dashboard highlights the major findings from the analysis and presents business recommendations based on the observed trends.
 
 ### Dashboard
 
@@ -91,31 +93,50 @@ The Summary dashboard presents the major findings from the analysis along with b
 # 🔍 Key Insights
 
 - The dataset contains **5,000 customers and 5,000 policies**.
-- **33.64%** of policies are active, while **66.36%** are inactive.
-- Active policies lead with **1,682**, followed by Terminated (**1,678**) and Lapsed (**1,640**) policies.
-- The **28–37 age group** has the highest participation with **790 policies**.
-- **Health insurance** has the highest policy count with **1,316 policies**.
+- **1,682 policies (33.64%)** are active, while **3,318 policies (66.36%)** are inactive.
+- Policy status distribution includes **1,682 active, 1,678 terminated, and 1,640 lapsed policies**.
+- **Health Insurance** has the highest policy count with **1,316 policies**.
 - Gender-wise policy participation is relatively balanced, with a difference of **53 policies**.
-- Average premium growth is **-1.91%**, showing fluctuations across the analyzed years.
-- Premium growth reached its highest point of **4.79% in 2022**.
+- Average premium growth is **-1.91%**, indicating fluctuations across the analyzed period.
+- Premium growth reached its highest level of **4.79% in 2022**.
 - The lowest premium growth was **-9.74% in 2015**.
-- Policy endings peaked at **526 in 2025** and declined afterward through 2034.
+- Policy endings peaked at **526 policies in 2025** and declined afterward through 2034.
 
 ---
 
 # 💡 Business Recommendations
 
-1. **Improve policy renewals**  
-   Run renewal reminders and win-back campaigns to improve the active policy rate.
+### 1. Improve Policy Renewals
 
-2. **Review pricing strategies**  
-   Analyze pricing and discount strategies because average premium growth is declining.
+Use renewal reminders and customer win-back campaigns to improve the active policy rate.
 
-3. **Prepare for policy renewals**  
-   Plan renewal capacity around the high policy-ending period of **2025–2027**.
+### 2. Review Pricing Strategies
 
-4. **Explore cross-selling opportunities**  
-   Identify customers without policies and develop suitable cross-selling strategies.
+Analyze pricing, premium, and discount strategies to understand the fluctuations in premium growth.
+
+### 3. Prepare for Policy Renewals
+
+Plan renewal activities and customer engagement around periods with higher policy endings.
+
+### 4. Explore Cross-Selling Opportunities
+
+Identify customers with limited insurance coverage and develop suitable cross-selling opportunities.
+
+---
+
+# 📈 Dashboard Features
+
+- Interactive KPI cards
+- Policy status analysis
+- Customer demographic analysis
+- Age-group analysis
+- Gender-wise policy analysis
+- Insurance type comparison
+- Premium growth analysis
+- Policy lifecycle analysis
+- Policy-ending trend analysis
+- Interactive slicers and filters
+- Business insights and recommendations
 
 ---
 
@@ -135,26 +156,12 @@ Insurance-Analytics/
 
 ---
 
-# 📈 Dashboard Features
-
-- Interactive KPI cards
-- Policy status analysis
-- Customer demographic analysis
-- Age-group analysis
-- Gender-wise policy participation
-- Policy type comparison
-- Premium growth analysis
-- Policy-ending trend analysis
-- Interactive filters
-- Business insights and recommendations
-
----
-
 # 👩‍💻 Project Author
 
 **A. Keerthi Jyoshna**
 
-**Skills:** Power BI | Power Query | DAX | Data Analysis | Data Visualization | Dashboard Development
+**Skills:**  
+Power BI | Power Query | DAX | Data Analysis | Data Visualization | Dashboard Development
 
 ---
 
